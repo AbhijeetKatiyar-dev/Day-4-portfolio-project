@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #0F172A;
+}
+
+#return{
+    height:60px;
+    width:100%;
+    background-color: black;
+}
+
+#return a{
+    color:white;
+    text-decoration:none;
+    font-size: 25px;
+    margin-left:10px;
+}
+
+#container{
+    display:flex;
+    justify-content:space-between;
+}
+
+#my-info{
+    display:inline-block;
+    height:745px;
+    width:600px;
+    border:5px #334155 solid;
+    border-radius:30px;
+    color: navy;
+    background-color: #1E293B;
+    display:inline-block;
+    margin-right:30px;
+}
+
+#my-image{
+    height:250px;
+    background-image:url(our.jpeg);
+    background-size:cover;
+    border:5px #334155 solid;
+    border-radius:30px;
+}
+
+#my-intro h1{
+    font-style:italic;
+    text-decoration:underline;
+    text-align:center;
+    font-size:50px;
+    color:#38BDF8;
+}
+
+#my-intro li{
+    margin-left:30px;
+    font-size:20px;
+    padding:10px;
+    color:#F8FAFC;
+}
+
+#my-intro h2{
+    Font-size:25px;
+    padding:10px;
+    color:#38BDF8;
+}
+
+#my-intro a{
+    margin-left:10px;
+    display:block;
+    font-size: 20px;
+    text-decoration:none;
+    color:#F8FAFC;
+}
+
+#contact-form{
+    height:745px;
+    width:600px;
+    margin-left:30px;
+    border:5px #334155 solid;
+    border-radius:30px;
+    color: navy;
+    background-color: #1E293B;
+    display:inline-block;
+}    
+
+#contact-form h1{
+    font-style:italic;
+    text-decoration:underline;
+    text-align:center;
+    font-size:50px;
+    color:#38BDF8;
+    }
+
+#contact-form p{
+    font-size:15px;
+    padding:10px;
+    color:#F8FAFC;
+}
+
+#contact-form label{
+    font-size:15px;
+    padding:10px;
+    color:#F8FAFC;
+}
+
+#contact-form input{
+    height:30px;
+    width:400px;
+    padding:10px;
+    font-weight:900;
+    border-radius:10px;
+    border:2px #334155 solid;
+    background-color: #0F172A;
+    color:#38BDF8;
+}
+
+#contact-form textarea{
+    height:100px;
+    width:400px;
+    font-weight:900;
+    font-size:15px;
+    border-radius:10px;
+    padding:10px;
+    border:2px #334155 solid;
+    background-color: #0F172A;
+    color:#38BDF8;
+}
+
+#contact-form button{
+    height:30px;
+    width:100px;
+    margin-left:490px;
+    font-weight:900;
+    border-radius:10px;
+    border:2px #334155 solid;
+    background-color: #0F172A;
+    color:#38BDF8;
+}
+
+#contact-form button:hover{
+    color:#0F172A;
+    background-color:#38BDF8;
+}
+
+footer{
+    height:60px;
+    font-size:25px;
+    color:white;
+    text-align:center;
+    background-color: #0B1220;
+}
